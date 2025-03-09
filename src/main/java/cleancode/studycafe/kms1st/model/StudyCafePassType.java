@@ -12,4 +12,7 @@ public enum StudyCafePassType {
         this.description = description;
     }
 
+		public boolean equalsAt(StudyCafePassType studyCafePassType) {
+			return this == studyCafePassType;
+		}
 }
