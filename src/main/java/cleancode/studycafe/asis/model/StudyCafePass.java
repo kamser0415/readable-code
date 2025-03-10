@@ -1,5 +1,7 @@
 package cleancode.studycafe.asis.model;
 
+import cleancode.studycafe.kms1st.model.StudyCafeLockerPass;
+
 public class StudyCafePass {
 
     private final StudyCafePassType passType;
