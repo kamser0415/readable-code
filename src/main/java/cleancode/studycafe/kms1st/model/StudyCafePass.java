@@ -1,6 +1,4 @@
-package cleancode.studycafe.asis.model;
-
-import cleancode.studycafe.kms1st.model.StudyCafeLockerPass;
+package cleancode.studycafe.kms1st.model;
 
 public class StudyCafePass {
 
