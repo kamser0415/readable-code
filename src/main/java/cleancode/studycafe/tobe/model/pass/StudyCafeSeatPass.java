@@ -23,7 +23,10 @@ public class StudyCafeSeatPass implements StudyCafePass {
     public boolean cannotUseLocker() {
         return this.passType.isNotLockerType();
     }
-
+	/*
+	TODO-8 테스트가 필요하다고 생각하는 메서드
+	데이터 조회시 사용되는 메서드이므로 테스트가 필요하다.
+	 */
     public boolean isSameDurationType(StudyCafeLockerPass lockerPass) {
         return lockerPass.isSamePassType(this.passType)
             && lockerPass.isSameDuration(this.duration);

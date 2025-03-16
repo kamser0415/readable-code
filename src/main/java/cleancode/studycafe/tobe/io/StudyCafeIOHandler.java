@@ -6,10 +6,11 @@ import cleancode.studycafe.tobe.model.pass.StudyCafeSeatPass;
 import cleancode.studycafe.tobe.model.pass.StudyCafePassType;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class StudyCafeIOHandler {
 
-    private final InputHandler inputHandler = new InputHandler();
+    private final InputHandler inputHandler = new InputHandler(new Scanner(System.in));
     private final OutputHandler outputHandler = new OutputHandler();
 
     public void showWelcomeMessage() {
