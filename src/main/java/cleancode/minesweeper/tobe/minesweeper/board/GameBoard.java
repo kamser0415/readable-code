@@ -5,7 +5,6 @@ import cleancode.minesweeper.tobe.minesweeper.board.position.CellPosition;
 import cleancode.minesweeper.tobe.minesweeper.board.position.CellPositions;
 import cleancode.minesweeper.tobe.minesweeper.board.position.RelativePosition;
 import cleancode.minesweeper.tobe.minesweeper.gamelevel.GameLevel;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.List;
@@ -230,5 +229,4 @@ public class GameBoard {
     private Cell findCell(CellPosition cellPosition) {
         return board[cellPosition.getRowIndex()][cellPosition.getColIndex()];
     }
-
 }

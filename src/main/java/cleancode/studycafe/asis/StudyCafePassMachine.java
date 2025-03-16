@@ -10,6 +10,9 @@ import cleancode.studycafe.asis.model.StudyCafePassType;
 
 import java.util.List;
 
+/*
+리팩토링 1일차 3월 9일
+ */
 public class StudyCafePassMachine {
 
     private final InputHandler inputHandler = new InputHandler();
